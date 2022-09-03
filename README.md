@@ -53,10 +53,11 @@ Project is created with:
 ## Sprint Planning
 * Total Time Avaialable - 15 days
 * 2 Sprints of 5 working days each (excluding weekends and Holidays)
+* Menu management- 3 days 
 * Adding Files - 2 days
 * Deleting Files - 1 day
 * Search Files - 2 days 
-* Testing - 5 days 
+* Testing - 2 days 
  
 ## Setting Up The Application
 Run this as a Java project
