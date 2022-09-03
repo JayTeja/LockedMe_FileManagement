@@ -8,7 +8,7 @@ public class LockedMe {
     static String DIRECTORY;
     File folder_name;
 
-    public MswipeTest3() {
+    public LockedMe() {
         DIRECTORY = System.getProperty("user.dir");
         folder_name = new File(DIRECTORY+"/files");
         if (!folder_name.exists())
@@ -151,7 +151,7 @@ public class LockedMe {
 
     public static void main(String[] args) {
         System.out.println(WELCOME_PROMPT);
-        MswipeTest3 menu = new MswipeTest3();
+        LockedMe menu = new LockedMe();
         menu.showMainMenu();
     }
 }
